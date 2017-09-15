@@ -30,6 +30,7 @@ public class TestCalcDistance {
     /**
      *  Checks the Planet class to make sure calcDistance works.
      */
+    
     private static void checkCalcDistance() {
         System.out.println("Checking calcDistance...");
 
@@ -40,4 +41,6 @@ public class TestCalcDistance {
         checkEquals(p1.calcDistance(p2), 1.0, "calcDistance()", 0.01);
         checkEquals(p1.calcDistance(p3), 5.0, "calcDistance()", 0.01);
     }
+    
+    
 }
