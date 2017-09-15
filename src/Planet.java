@@ -20,7 +20,14 @@ public class Planet {
 	}
 
 	public Planet(Planet p) {
-
+		this.myXPos = p.myXPos;
+		this.myYPos = p.myYPos;
+		this.myXVel = p.myXVel;
+		this.myYVel = p.myYVel;
+		this.myMass = p.myMass;
+		this.myFileName = p.myFileName;
+		
+		
 	}
 	
 	public void draw(){
@@ -96,6 +103,7 @@ public class Planet {
 		this.myYPos = this.myYPos + (this.myYVel * seconds);
 		
 	}
+	
 
 }
 
